@@ -17,7 +17,7 @@ Attempt to build a reliable Neutral Network model that can predict the correct s
       * Removed non-alphabetic words
       * Used SnowBallStemmer to stem each word
    * Joined the list of preprocessed words   
-* ### Prepare Data For Neutral Network:**
+* ### Prepare Data For Neutral Network:
 
 * ### Time To Apply Neutral Network:
 
