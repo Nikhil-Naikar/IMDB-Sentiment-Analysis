@@ -1,7 +1,8 @@
 # Deep Learning Model: Sentiment Analysis of IMDB-Movie-Reviews
 
 ## Short Description:
-Attempt to build a reliable Neutral Network model that can predict the correct sentiment for IMBD movie reviews.
+Attempt to build a reliable Neutral Network model that can predict the correct sentiment for IMBD movie reviews.<br>
+Result: training score of 87% and testing score of 84%.
 
 ## Code is Divided Into The Following Section:
 * ### Collecting Data:
