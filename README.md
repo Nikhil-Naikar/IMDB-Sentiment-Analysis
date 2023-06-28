@@ -18,6 +18,8 @@ Attempt to build a reliable Neutral Network model that can predict the correct s
       * Used SnowBallStemmer to stem each word
    * Joined the list of preprocessed words   
 * ### Prepare Data For Neutral Network:
-
+   * Used the bag of words method to extract the features from the preprocessed movie reviews.
+   * Used the label encoder method to add numeric values for the string labels (0=negative, 1=positive).
+   * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.
 * ### Time To Apply Neutral Network:
 
