@@ -22,4 +22,14 @@ Attempt to build a reliable Neutral Network model that can predict the correct s
    * Used the label encoder method to add numeric values for the string labels (0=negative, 1=positive).
    * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.
 * ### Time To Apply Neutral Network:
+   * Choose appropriate architecture for NN:
+      * Number of layers
+      * Numbers of neutrons
+      * Activision function for each layer
+   * Choose parameters for the model:
+      * Optimerzer
+      * Learning rate
+      * Loss function
+      * Metric
+      * Number of epochs
 
