@@ -9,7 +9,7 @@ Attempt to build a reliable Neutral Network model that can predict the correct s
     * Selected 8000 reviews since the dataset was quite large and consisted of 25,000 reviews.
     * Checked if the dataset labels were balanced.
     * Separated main Dataframe into two: reviews (features) and sentiment (labels).
-* PreProcessing The Data For ML:
+* **PreProcessing The Data For ML:**
    * Used BeautifulSoup to parse the HTML content from the raw review data and collect the text content.
    * Tokenized the text content then:
       * Removed punctuation
@@ -17,7 +17,7 @@ Attempt to build a reliable Neutral Network model that can predict the correct s
       * Removed non-alphabetic words
       * Used SnowBallStemmer to stem each word
    * Joined the list of preprocessed words   
-* Prepare Data For Neutral Network:
+* **Prepare Data For Neutral Network:**
 
-* Time To Apply Neutral Network:
+* ### Time To Apply Neutral Network:
 
