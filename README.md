@@ -1,8 +1,15 @@
-# Deep Learning Model: Sentiment Analysis of IMDB-Movie-Reviews
+# IMDB Sentiment Analysis
 
-## About:
-Attempt to build a reliable Deep Learning model that can predict the correct sentiment for IMBD movie reviews. The Neutral Network model was constructed using 8000 IMDB movie reviews. The raw review data was preprocessed to ensure data quality, involving parsing HTML content with BeautifulSoup, removing stop words, non-alphabetic words, and punctuation, and applying the Snowball Stemmer. The features were extracted from the preprocessed movie reviews using the bag-of-words method. Additionally, hyperparameters for the Neural Network architecture, such as the number of layers, neurons, and activation functions, were carefully selected. Specific model parameters, including the optimizer, learning rate, loss function, metric, and number of epochs, were also chosen.<br>
+## Objective 📋
+Attempt to build a reliable Deep Learning model that can predict the correct sentiment for IMBD movie reviews. The Neutral Network model was constructed using 8000 IMDB movie reviews. The raw review data was preprocessed to ensure data quality, 
 **Result: training score of 87% and testing score of 84%.**
+
+## Tech Stack 🧰
+- Python
+- Pandas
+- TensorFlow
+- Scikit-learn
+- Deep Learning and Neural Networks
 
 ## Code is Divided Into The Following Section:
 * ### Collecting Data:
