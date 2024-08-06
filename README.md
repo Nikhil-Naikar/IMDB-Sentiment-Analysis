@@ -23,20 +23,21 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
       ![Screenshot 2024-08-06 at 1 52 11 PM](https://github.com/user-attachments/assets/46c74891-0370-4336-b09d-8dc5ac5c587a)
     * Separated main Dataframe into two: reviews (features) and sentiment (labels).<br/>
       ![Screenshot 2024-08-06 at 1 54 00 PM](https://github.com/user-attachments/assets/cd4c122f-a6b5-4458-9518-6f44a2375b95)
-
-
-- **PreProcessing The Data For ML:** 
+- **Preprocessing the reviews:** 
    * Used BeautifulSoup to parse the HTML content from the raw review data and collect the text content.
    * Tokenized the text content then:
-      * Removed punctuation
-      * Removed stopwords
-      * Removed non-alphabetic words
-      * Used SnowBallStemmer to stem each word
-   * Joined the list of preprocessed words
-- **Prepare Data For Neutral Network:**  
-   * Used the bag of words method to extract the features from the preprocessed movie reviews.
-   * Used the label encoder method to add numeric values for the string labels (0=negative, 1=positive).
-   * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.
+      * Removed punctuation.
+      * Removed stopwords.
+      * Removed non-alphabetic words.
+      * Used SnowBallStemmer, For example, the words 'walk', 'walked', 'walks' or 'walking' will be all converted to the base form 'walk'
+   * Joined the list of preprocessed words<br/>
+      ![Screenshot 2024-08-06 at 1 55 59 PM](https://github.com/user-attachments/assets/50e14e9b-c202-40b1-b86f-d1e4437be6b3)
+- **Apply Feature Extraction Techniques:**
+   * countVectorizer, to ignore words that appear too little or too much.
+   * bag of words, will count how many of each word is in the sentence. Ex: 'the' appears 4 times in this sentence.
+   * label encoder method to add numeric values for the labels, negative=0 and positive=1.
+   * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.<br/>
+   ![Screenshot 2024-08-06 at 2 02 22 PM](https://github.com/user-attachments/assets/c5fc492b-e0e3-4cdc-ae35-5a62dc0f08b5)
 
 - **Time To Apply Neutral Network:**
    * Choose appropriate architecture for NN:
