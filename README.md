@@ -53,10 +53,10 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
         ![Screenshot 2024-08-06 at 2 10 10 PM](https://github.com/user-attachments/assets/d29050c3-8621-4b64-8f0f-87cbd24108ab)
    * Train/Test model:
       * set of epochs
-        ![Screenshot 2024-08-06 at 2 10 57 PM](https://github.com/user-attachments/assets/f3a6f352-ece5-4e98-9050-977dedf8d9ab)
-        
+        ![Screenshot 2024-08-06 at 2 29 34 PM](https://github.com/user-attachments/assets/21cd6f5b-ba38-42bd-97ef-f1bc452f359d)
+
 ## Reflection 🤔
-- If you have a model with a good training score like 96% but a testing score is 86%, this means your model is "overfitted". So, it is not always best to have the highest training score, you should also make sure that the testing score is not far behind.
+- If you have a model with a good training score like 96% but a testing score is 76%, this means your model is "overfitted". So, it is not always best to just have the highest training score, you should also make sure that the testing score is not far behind.
 - Neutral Networks is pretty awesome!
 
 
