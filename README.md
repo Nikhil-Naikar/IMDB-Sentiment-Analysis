@@ -35,8 +35,7 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
 - **Apply Feature Extraction Techniques:**
    * countVectorizer, to ignore words that appear too little or too much.
    * bag of words, will count how many of each word is in the sentence. Ex: 'the' appears 4 times in this sentence.
-   * label encoder method to add numeric values for the labels, negative=0 and positive=1.
-   * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.<br/>
+   * label encoder method to add numeric values for the labels, negative=0 and positive=1.<br/>
    ![Screenshot 2024-08-06 at 2 02 22 PM](https://github.com/user-attachments/assets/c5fc492b-e0e3-4cdc-ae35-5a62dc0f08b5)
 - **Neutral Networks Time!**
    * Spilt the dataset into training and testing sets.
