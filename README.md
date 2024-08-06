@@ -8,7 +8,7 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
 ## Tech Stack 🧰
 - TensorFlow (Deep Learning - Neutral Networks)
 - Scikit-learn
-- Python (
+- Python
 - Pandas
 - Matplotlib
 - Seaborn
