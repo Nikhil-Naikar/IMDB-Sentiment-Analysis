@@ -1,8 +1,9 @@
 # IMDB Sentiment Analysis
 
+![Screenshot 2024-08-06 at 1 45 37 PM](https://github.com/user-attachments/assets/a5619649-f130-4bba-86dd-6df84f5c5709)
+
 ## Objective 📋
-Attempt to build a reliable deep-learning model that can predict the correct sentiment for IMBD movie reviews. The Neutral Network model was constructed using 8000 IMDB movie reviews. The raw review data was preprocessed to ensure data quality, 
-**Result: training score of 87% and testing score of 84%.**
+Attempt to build a reliable deep-learning model using Neutral Networks algorithm to predict the correct sentiment for IMBD movie reviews with a dataset of 50000 rows.
 
 ## Tech Stack 🧰
 - Python
@@ -16,6 +17,7 @@ Attempt to build a reliable deep-learning model that can predict the correct sen
 ## Steps taken 🪜
 - **Collecting Data:**
     * Reads the IMDB movie reviews data stored in the CSV file into a pandas DataFrame.
+      
     * Selected 8000 reviews since the dataset was quite large and consisted of 25,000 reviews.
     * Checked if the dataset labels were balanced.
     * Separated main Dataframe into two: reviews (features) and sentiment (labels).
