@@ -38,10 +38,10 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
    * label encoder method to add numeric values for the labels, negative=0 and positive=1.
    * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.<br/>
    ![Screenshot 2024-08-06 at 2 02 22 PM](https://github.com/user-attachments/assets/c5fc492b-e0e3-4cdc-ae35-5a62dc0f08b5)
-- **Neutrals Network Time!**
+- **Neutral Networks Time!**
    * Spilt the dataset into training and testing sets.
      ![Screenshot 2024-08-06 at 2 05 32 PM](https://github.com/user-attachments/assets/4cabfa2e-9a67-4a33-b5a4-eafd26118acd)
-   * Configure the architecture for the Neutrals Network:
+   * Configure the architecture for the Neutral Networks:
       * Number of layers
       * Numbers of neutrons
       * Activision function for each layer<br/>
@@ -55,6 +55,9 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
    * Train/Test model:
       * set of epochs
         ![Screenshot 2024-08-06 at 2 10 57 PM](https://github.com/user-attachments/assets/f3a6f352-ece5-4e98-9050-977dedf8d9ab)
-
+        
+## Reflection 🤔
+- If you have a model with a good training score like 96% but a testing score is 86%, this means your model is "overfitted". So, it is not always best to have the highest training score, you should also make sure that the testing score is not far behind.
+- Neutral Networks is pretty awesome!
 
 
