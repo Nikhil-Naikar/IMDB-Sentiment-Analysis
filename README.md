@@ -38,16 +38,23 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
    * label encoder method to add numeric values for the labels, negative=0 and positive=1.
    * Split all the preprocessed data into training (70% of data) and testing (30% of data) sets. Each set consisted of train and test parts.<br/>
    ![Screenshot 2024-08-06 at 2 02 22 PM](https://github.com/user-attachments/assets/c5fc492b-e0e3-4cdc-ae35-5a62dc0f08b5)
-
-- **Time To Apply Neutral Network:**
-   * Choose appropriate architecture for NN:
+- **Neutrals Network Time!**
+   * Spilt the dataset into training and testing sets.
+     ![Screenshot 2024-08-06 at 2 05 32 PM](https://github.com/user-attachments/assets/4cabfa2e-9a67-4a33-b5a4-eafd26118acd)
+   * Configure the architecture for the Neutrals Network:
       * Number of layers
       * Numbers of neutrons
-      * Activision function for each layer
-   * Choose parameters for the model:
+      * Activision function for each layer<br/>
+        ![Screenshot 2024-08-06 at 2 07 51 PM](https://github.com/user-attachments/assets/7e62660e-27c7-409b-95e2-3401a9be8fae)
+   * Choose more parameters:
       * Optimerzer
       * Learning rate
       * Loss function
-      * Metric
-      * Number of epochs
+      * Metric<br/>
+        ![Screenshot 2024-08-06 at 2 10 10 PM](https://github.com/user-attachments/assets/d29050c3-8621-4b64-8f0f-87cbd24108ab)
+   * Train/Test model:
+      * set of epochs
+        ![Screenshot 2024-08-06 at 2 10 57 PM](https://github.com/user-attachments/assets/f3a6f352-ece5-4e98-9050-977dedf8d9ab)
+
+
 
