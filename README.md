@@ -3,10 +3,10 @@
 ![Screenshot 2024-08-06 at 1 45 37 PM](https://github.com/user-attachments/assets/a5619649-f130-4bba-86dd-6df84f5c5709)
 
 ## Objective 📋
-Attempt to build a reliable deep-learning model using Neutral Networks algorithm to predict the correct sentiment for IMBD movie reviews with a dataset of 50000 rows.
+Attempt to build a reliable deep-learning model using Neural Networks algorithm to predict the correct sentiment for IMBD movie reviews with a dataset of 50000 rows.
 
 ## Tech Stack 🧰
-- TensorFlow (Deep Learning - Neutral Networks)
+- TensorFlow (Deep Learning - Neural Networks)
 - Scikit-learn
 - Python
 - Pandas
@@ -37,12 +37,12 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
    * bag of words, will count how many of each word is in the sentence. Ex: 'the' appears 4 times in this sentence.
    * label encoder method to add numeric values for the labels, negative=0 and positive=1.<br/>
    ![Screenshot 2024-08-06 at 2 02 22 PM](https://github.com/user-attachments/assets/c5fc492b-e0e3-4cdc-ae35-5a62dc0f08b5)
-- **Neutral Networks Time!**
+- **Neural Networks Time!**
    * Spilt the dataset into training and testing sets.
      ![Screenshot 2024-08-06 at 2 05 32 PM](https://github.com/user-attachments/assets/4cabfa2e-9a67-4a33-b5a4-eafd26118acd)
    * Configure the architecture for the Neutral Networks:
       * Number of layers
-      * Numbers of neutrons
+      * Numbers of neurons
       * Activision function for each layer<br/>
         ![Screenshot 2024-08-06 at 2 07 51 PM](https://github.com/user-attachments/assets/7e62660e-27c7-409b-95e2-3401a9be8fae)
    * Choose more parameters:
@@ -57,6 +57,6 @@ Attempt to build a reliable deep-learning model using Neutral Networks algorithm
 
 ## Reflection 🤔
 - If you have a model with a good training score like 96% but a testing score is 76%, this means your model is "overfitted". So, it is not always best to just have the highest training score, you should also make sure that the testing score is not far behind.
-- Neutral Networks is pretty awesome!
+- Neural Networks is pretty awesome!
 
 
